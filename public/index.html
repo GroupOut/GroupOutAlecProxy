@@ -3,17 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>GroupOut Alec</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
-  <div id="Reviews"></div>
-  <script src="/lib/react.development.js"></script>
-  <script src="/lib/react-dom.development.js"></script>
-  <script type="text/javascript" src="http://localhost:3004/app.js"></script>
-  <script>
-    ReactDOM.render(
-      React.createElementById('Reviews')
-    );
+
+  <script src="./lib/react.development.js"></script>
+  <script src="./lib/react-dom.development.js"></script>
+
+  <div style="display: flex">
+    <span id="gallery"></span>
+    <span id="deal-info"></span>
+  </div>
+  <div id="reviews"></div>
+
+  <script src="http://localhost:3004/app.js"></script>
+  <script src="http://localhost:3003/app.js"></script>
+  <script src="http://localhost:3001/app.js"></script>
+  
+<!--   <script>
+    ReactDOM.render(React.createElement(Reviews), document.getElementById('reviews'));
   </script>
+  <script>
+    ReactDOM.render(React.createElement(Reviews), document.getElementById('gallery'));
+  </script>
+  <script>
+    ReactDOM.render(React.createElement(Reviews), document.getElementById('deal-info'));
+  </script> -->
 
 </body>
 </html>
